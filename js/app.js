@@ -53,7 +53,101 @@ async function viewFeed(){
         <p>${p.text}</p>
         <a class="btn" href="${p.url}">Abrir</a>
       </div>
-    </div>`;
+    </div>
+	
+	<section>
+  <h2 class="section-title">Acerca de mí</h2>
+  <div class="card">
+    <p>Soy un programador con experiencia en proyectos freelance, validaciones educativas y sistemas funcionales. 
+    Trabajo con tecnologías web, SQL, JS y desarrollo de plataformas interactivas. 
+    No cuento con estudios universitarios formales, pero mi experiencia práctica y ética profesional respaldan cada proyecto que realizo.</p>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Habilidades</h2>
+  <div class="skills card">
+    <span class="skill">JavaScript</span>
+    <span class="skill">HTML & CSS</span>
+    <span class="skill">SQL</span>
+    <span class="skill">WebSocket & ICE</span>
+    <span class="skill">Desarrollo Fullstack Básico</span>
+    <span class="skill">Gestión de Proyectos</span>
+    <span class="skill">Control de Versiones (Git/GitHub)</span>
+    <span class="skill">Portfolio y Landing Pages</span>
+    <span class="skill">Proyectos Educativos</span>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Proyectos Destacados</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Proyecto ICO Computingles</h3>
+      <p>Simulación de sistema educativo con SQL y JS, validado por universidad (privado).</p>
+      <span class="project-badge">Freelance</span>
+      <span class="project-badge">Validado</span>
+    </div>
+
+    <div class="card">
+      <h3>Sistema de Mensajería WebSocket</h3>
+      <p>Plataforma básica para enviar mensajes y generar IDs únicos, usando solo JS y SQL.</p>
+      <span class="project-badge">Freelance</span>
+      <span class="project-badge">Experimental</span>
+    </div>
+
+    <div class="card">
+      <h3>Portfolio y Landing Page</h3>
+      <p>Diseño y desarrollo completo del portfolio personal, integrando proyectos y habilidades.</p>
+      <span class="project-badge">Web Personal</span>
+    </div>
+
+    <div class="card">
+      <h3>Proyectos Educativos</h3>
+      <p>Material y plataformas interactivas para estudiantes, combinando programación, ciencia y tecnología.</p>
+      <span class="project-badge">Educación</span>
+      <span class="project-badge">Freelance</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Experiencia</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Freelance Web & SQL Developer</h3>
+      <p>Desarrollo de sistemas, páginas web, manejo de bases de datos y proyectos educativos.</p>
+      <p><strong>Fechas:</strong> Actual</p>
+    </div>
+
+    <div class="card">
+      <h3>ICO Computingles</h3>
+      <p>Proyectos de programación y validación educativa.</p>
+      <p><strong>Fechas:</strong> Según proyecto</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Educación</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Prepa en Línea SEP</h3>
+      <p>Modulo 23 - Programación y TICs básicas</p>
+      <p><strong>Estado:</strong> En curso / completado</p>
+    </div>
+
+    <div class="card">
+      <h3>Carrera Técnica en Programación - ICO</h3>
+      <p>Aprendizaje práctico en desarrollo web, SQL, JS y proyectos educativos.</p>
+      <p><strong>Certificación:</strong> En espera / validación interna</p>
+    </div>
+  </div>
+</section>
+	
+	
+	
+	`;
   });
   return out + `</div>`;
 }
@@ -69,6 +163,101 @@ function viewProfile(p){
 <div class="card">
  <iframe src="cv/index.html" width="" height="720px">
 		 </div>
+
+
+
+<section>
+  <h2 class="section-title">Acerca de mí</h2>
+  <div class="card">
+    <p>Soy un programador con experiencia en proyectos freelance, validaciones educativas y sistemas funcionales. 
+    Trabajo con tecnologías web, SQL, JS y desarrollo de plataformas interactivas. 
+    No cuento con estudios universitarios formales, pero mi experiencia práctica y ética profesional respaldan cada proyecto que realizo.</p>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Habilidades</h2>
+  <div class="skills card">
+    <span class="skill">JavaScript</span>
+    <span class="skill">HTML & CSS</span>
+    <span class="skill">SQL</span>
+    <span class="skill">WebSocket & ICE</span>
+    <span class="skill">Desarrollo Fullstack Básico</span>
+    <span class="skill">Gestión de Proyectos</span>
+    <span class="skill">Control de Versiones (Git/GitHub)</span>
+    <span class="skill">Portfolio y Landing Pages</span>
+    <span class="skill">Proyectos Educativos</span>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Proyectos Destacados</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Proyecto ICO Computingles</h3>
+      <p>Simulación de sistema educativo con SQL y JS, validado por universidad (privado).</p>
+      <span class="project-badge">Freelance</span>
+      <span class="project-badge">Validado</span>
+    </div>
+
+    <div class="card">
+      <h3>Sistema de Mensajería WebSocket</h3>
+      <p>Plataforma básica para enviar mensajes y generar IDs únicos, usando solo JS y SQL.</p>
+      <span class="project-badge">Freelance</span>
+      <span class="project-badge">Experimental</span>
+    </div>
+
+    <div class="card">
+      <h3>Portfolio y Landing Page</h3>
+      <p>Diseño y desarrollo completo del portfolio personal, integrando proyectos y habilidades.</p>
+      <span class="project-badge">Web Personal</span>
+    </div>
+
+    <div class="card">
+      <h3>Proyectos Educativos</h3>
+      <p>Material y plataformas interactivas para estudiantes, combinando programación, ciencia y tecnología.</p>
+      <span class="project-badge">Educación</span>
+      <span class="project-badge">Freelance</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Experiencia</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Freelance Web & SQL Developer</h3>
+      <p>Desarrollo de sistemas, páginas web, manejo de bases de datos y proyectos educativos.</p>
+      <p><strong>Fechas:</strong> Actual</p>
+    </div>
+
+    <div class="card">
+      <h3>ICO Computingles</h3>
+      <p>Proyectos de programación y validación educativa.</p>
+      <p><strong>Fechas:</strong> Según proyecto</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Educación</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Prepa en Línea SEP</h3>
+      <p>Modulo 23 - Programación y TICs básicas</p>
+      <p><strong>Estado:</strong> En curso / completado</p>
+    </div>
+
+    <div class="card">
+      <h3>Carrera Técnica en Programación - ICO</h3>
+      <p>Aprendizaje práctico en desarrollo web, SQL, JS y proyectos educativos.</p>
+      <p><strong>Certificación:</strong> En espera / validación interna</p>
+    </div>
+  </div>
+</section>
+
+
+		 
   
 	  `;
 }
@@ -92,7 +281,7 @@ function viewVideos(){
 		<p> yo soy el lenard</p>
 	<iframe  src="https://www.youtube.com/embed/ofpTVNRm0-0" title="Por favor no te rindas con ella 😅 #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-22/09/25 7:20 a.m.
+15/03/26 7:20 a.m.
 <iframe  src="https://www.youtube.com/embed/xRjqSoiH-jA" title="Cómo una empresa envenenó el planeta en secreto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe   src="https://www.youtube.com/embed/HuK70ss-Na0" title="TOP: Los 7 casos más perturbadores que existen sobre militares 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
