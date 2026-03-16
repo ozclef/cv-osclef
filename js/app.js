@@ -160,8 +160,15 @@ function viewProfile(p){
     <h2>${p.name}</h2>
     <p>${p.bio}</p>
   </div>
+  <nav>
+  <button onclick="loadMarkdown('docs/CONTRATACIONES.md')">Contrataciones</button>
+  <button onclick="loadMarkdown('docs/CURRICULUM.md')">Currículum</button>
+  <button onclick="loadMarkdown('docs/PROYECTOS.md')">Proyectos</button>
+</nav>
+<main id="content"></main>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script> /* tu función loadMarkdown */ </script>
 <div class="card">
- <iframe src="cv/index.html" width="" height="720px">
 		 </div>
 
 
@@ -271,21 +278,9 @@ function viewPhotos(){
 
 function viewVideos(){
   return `
-  <div class="card"><h2>Videos</h2>
-  <p>Videos offline local — próximamente.</p>
-
-                  <section>
- <div class="card">
-					<p>bruna palessi xD </p>
-	<iframe src="https://www.youtube.com/embed/6HF6tRERJNI" title="Engañaron a INFLUENCERS de moda solo con unos zapatos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p> yo soy el lenard</p>
-	<iframe  src="https://www.youtube.com/embed/ofpTVNRm0-0" title="Por favor no te rindas con ella 😅 #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-15/03/26 7:20 a.m.
-<iframe  src="https://www.youtube.com/embed/xRjqSoiH-jA" title="Cómo una empresa envenenó el planeta en secreto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe   src="https://www.youtube.com/embed/HuK70ss-Na0" title="TOP: Los 7 casos más perturbadores que existen sobre militares 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+  <div class="card">
+  <section>
+  
 </section>
   </div>`;
 }
