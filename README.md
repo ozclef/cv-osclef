@@ -1,223 +1,51 @@
-# cv-osclef
-CV exclusiva para MOB ent. resumiendo y actualizando mis proyectos despues de cierto avance, 
+# mob-application / cv-osclef
+**Oscar Cruz Díaz — Self-Taught Developer & Game Enthusiast**
 
-
- página de empleos de Mob Entertainment, el estudio que creó Poppy Playtime.
- 
-Las vacantes que aparecen **no son de nivel junior**. Son puestos senior o directivos:
-
-* **Senior Gameplay Programmer**
-* **Engineering Director**
-* **Associate Game Director**
-* }
-
-*
-*    **programador autodidacta con proyectos reales**, no estudiante. 🧠💻
-
+**Propósito:** Repositorio preparado específicamente como solicitud y portfolio dirigido a **:contentReference[oaicite:1]{index=1}**. Muestra proyectos reales, análisis de diseño de juego, optimización para hardware de bajo recurso y mi CV interactivo.
 
 ---
 
-# CV Mejorado (versión profesional)
-
-## Oscar Cruz Díaz
-
-**Self-Taught Software Developer | Web Systems | Experimental Game Dev**
-
-📍 México
-💻 GitHub: github.com/ozclef
-🧠 Especialización: sistemas web funcionales, prototipos interactivos y desarrollo autodidacta.
+## Resumen rápido
+Soy desarrollador autodidacta con experiencia práctica en proyectos web, sistemas con SQL y prototipos interactivos. Trabajo habitualmente en hardware de recursos limitados (Celeron, 4 GB RAM, Tiny10), lo que me ha forzado a enfocarme en eficiencia, arquitecturas ligeras y soluciones prácticas.
 
 ---
 
-# Perfil Profesional
-
-Desarrollador autodidacta enfocado en la creación de **sistemas funcionales desde cero**, incluyendo plataformas web, sistemas de mensajería en tiempo real y simulaciones educativas.
-
-Experiencia desarrollando proyectos freelance y experimentales utilizando **JavaScript, SQL y tecnologías web**, con énfasis en arquitectura simple, prototipado rápido y soluciones prácticas.
-
-Actualmente enfocado en expandir habilidades hacia **desarrollo de software interactivo y videojuegos**.
-
----
-
-# Habilidades Técnicas
-
-### Lenguajes
-
-* JavaScript
-* SQL
-* HTML5
-* CSS3
-
-### Desarrollo
-
-* Desarrollo Web Fullstack básico
-* Sistemas WebSocket
-* Arquitectura de prototipos
-* Sistemas de base de datos
-
-### Herramientas
-
-* Git
-* GitHub
-* Desarrollo frontend
-* Diseño de landing pages
+## Qué quiero que revisen primero (orden recomendado)
+1. **cv/index.html** — versión interactiva del CV (embedded en la página principal).  
+2. **README.md** (este archivo) — contexto de la aplicación a Mob.  
+3. **projects/** — repos y demos (resalta `websocket-messaging`, `ico-sim`, `pos-prototype`).  
+4. **mob/** *(o branch `mob-application`)* — carpeta con carta de motivación y archivos específicos para Mob: `MOB_COVER_LETTER.md`, `MOB_README.md`, `poppy_playtime_analysis.md`.  
+5. **YouTube / streaming evidence** — `links` en la sección `Links` del README (muestra pruebas de testing en hardware real).
 
 ---
 
-# Proyectos Relevantes
-
-## Sistema Educativo ICO (Simulación Académica)
-
-Desarrollo de una simulación funcional de sistema educativo utilizando SQL y JavaScript.
-
-Funciones:
-
-* estructura de alumnos
-* validación académica
-* simulación de plataforma educativa
-
-Proyecto realizado como parte de colaboración educativa.
+## Links rápidos
+- GitHub (perfil): https://github.com/ozclef  
+- Portfolio (deploy): https://ozclef.github.io/cv-osclef/  
+- YouTube (testing & streams): https://www.youtube.com/@OzSkaPlay
 
 ---
 
-## Sistema de Mensajería Web (WebSocket)
-
-Plataforma experimental que permite:
-
-* generación de IDs únicos
-* comunicación en tiempo real
-* arquitectura ligera usando JS y SQL
-
-Diseñado como base para aplicaciones colaborativas.
+## Tecnologías
+- JavaScript (vanilla) — SPA ligera con hash routing  
+- HTML5 / CSS3 — estilos responsivos, diseño ligero  
+- SQL (proyectos educativos)  
+- WebSocket (proto de mensajería)  
+- Herramientas: Git, Vercel (deploy estático), PyInstaller (packaging de scripts Python → .exe) — opcional
 
 ---
 
-## Sistema de Punto de Venta (POS tipo OXXO)
+## Cómo ejecutar local (simple)
+```bash
+# clonar
+git clone https://github.com/ozclef/cv-osclef.git
+cd cv-osclef
 
-Prototipo funcional de sistema de ventas.
+# servir localmente (recomendado: usar http-server o Live Server)
+# con Node instalado:
+npx http-server -c-1 -p 8080
+# o con Python 3:
+python -m http.server 8080
 
-Funciones:
-
-* registro de productos
-* control de inventario
-* simulación de caja
-
-Proyecto conceptual pensado para escalar a plataforma comercial.
-
----
-
-## Portfolio Web Personal
-
-Diseño completo de sitio web personal para mostrar proyectos y habilidades.
-
-Incluye:
-
-* landing pages
-* integración de proyectos
-* estructura profesional de presentación.
-
----
-
-# Experiencia
-
-### Freelance Developer
-
-Desarrollo de proyectos web y educativos.
-
-Trabajo en:
-
-* plataformas web
-* bases de datos
-* prototipos funcionales
-* sistemas educativos.
-
----
-
-# Educación
-
-### Prepa en Línea SEP
-
-Programación y TIC
-Estado: en curso / finalizando
-
-### Carrera Técnica en Programación – ICO
-
-Formación práctica en:
-
-* desarrollo web
-* SQL
-* JavaScript
-* sistemas educativos.
-
----
-
-# Algo importante ⚠️
-
-**intentes competir con ingenieros AAA.**
-
-* autodidacta
-* sistemas funcionales
-* prototipos reales
-* mentalidad de constructor
-
-**sí vale en startups**.
-
----
-
-# Puestos donde SÍ podrías intentar aplicar
-
- 
- los más realistas serían:
-
-1️⃣ **Game Product Manager**
-
-
-2️⃣ **Associate Game Director**
-
-
-3️⃣ **Director Publishing & Marketing**
-
-
-⚠️ **Senior Gameplay Programmer** normalmente pide:**
-
-* C++
-* Unreal Engine
-* 5+ años en industria
-
----
-
-# Algo MUCHO más inteligente que hacer
-
-No aplicar solo ahí.
-
-Aplica también a estudios indie.
-
-Ejemplos:
-
-* Devolver Digital
-* Team17
-* Raw Fury
-
-Estos sí revisan **autodidactas**.
-
----
-
-# Ahora lo importante para ti
-
-Oscar, si quieres, puedo también:
-
-* revisar tu GitHub
-* convertir **todo tu portfolio en un CV brutal**
-* escribir tu **carta para Mob Entertainment**
-* decirte **exactamente a qué puestos aplicar**
-* armarte un **portfolio que sí impresione a estudios**
- algo fuerte**, pero hay que **ordenarlo correctamente**.
-
----
-
-
-1️⃣ tu **GitHub real (repos)**
-2️⃣ el **portfolio HTML que hiciste**
-3️⃣ qué proyectos **sí funcionan ahora mismo**
-
-**un CV nivel estudio de videojuegos.** hardware y experiencia.
+# abrir en el navegador:
+# http://localhost:8080
